@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script src="equAPI.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="equAPI.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="main">
+
+        <p> \( -4x + 28 \over - 9 = -8\n -8 \) </p>
+
+        <div id="inputs">
+            <center>
+            <h1>Equation Generator</h1>
+            <input type="radio" id="level1" name="level" value="1" checked="true">
+            <label for="level1">1</label><br>
+            <input type="radio" id="level2" name="level" value="2">
+            <label for="level2">2</label><br>
+            <input type="radio" id="level3" name="level" value="3">
+            <label for="level3">3</label><br>
+            <input type="radio" id="level4" name="level" value="4">
+            <label for="level4">4</label><br>
+            <input type="radio" id="level5" name="level" value="5">
+            <label for="level5">5</label><br><br>
+
+            <button onclick="search()">Go</button>
+            </center>
+        </div>
+
+        <div id="result">
+
+        </div>
+
+        <div id="info">
+
+        </div>
+        
+
+    </div>
+</body>
+
+
+</html>

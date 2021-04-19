@@ -1,0 +1,16 @@
+body {
+    background-color: #110A08;
+    color: white;
+    font-family: "Georgia", serif;
+}
+
+#main {
+    background-color: #3f1e08;
+    width: 220px;
+    margin: auto;
+    padding: 0 5px 10px 5px;
+}
+
+/* #inputs {
+    margin: 5px;
+} */
